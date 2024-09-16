@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/Todo.css">
+    <title>Cute To-Do List</title>
+  </head>
+  <body>
+
+    <section class = "project">
+      <section class = "box">
+
+        <h2>How productive will you be today?</h2>
+
+      <section class = "inputs">
+        <form>
+          <input type="text" id="myInput" placeholder="What to do?">
+
+          <button type="submit" class="addBtn" onkeypress="addList()">Add</button>
+        </form>
+      </section>
+
+      <section>
+          <button type="button" class="clearAll">Clear</button>
+          <button type="button" class="clearCom">Clear Completed</button>
+      </section>
+
+      <p>You have <span class="remaining">0</span> activities remaining</p>
+    </section>
+  </section>
+
+  <section class = "listbox">
+      <ul id="myUL">
+
+  <!--<li class="checked">PLEASE</li>
+      <li>WORK</li> -->
+    </ul>
+  </section>
+
+  </body>
+    <script src="JS/Todo.js"></script>
+</html>
