@@ -1,22 +1,25 @@
 # ✅ Week05 Bootcamp2019 Project: Todo List
 
-### Goal: Build a Simple Todo List
+## A Forest-Themed To Do List
 
-### How to submit your code for review:
+Start off your day or organize your life at any time, with this new app.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+**Link to test:** https://todo-list-nktruong.netlify.app/
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## A Picture of the Very Fancy Website:
+![Image of Preview](https://i.imgur.com/oeziMwx.png)
+
+## How It's Made:
+
+**Tech used:** HTML5, CSS3, JavaScript ES6+
+
+## Optimizations:
+
+I'd like to redo the design and make it similar to Microsoft's To Do app. The notes would be on the top and the input box would be fixed at the bottom. When they don't fit on the screen, there is a scrollbar to view the other tasks.
+
+## Lessons Learned:
+
+* How to delete completed tasks all at once, using CSS classes
+* Emptying an array, which helped with future assignments
+* Using innerHTML to add list elements
+* Using addEventListener() to create click events
