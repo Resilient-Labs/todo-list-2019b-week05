@@ -1,22 +1,23 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# Task List
+This is a project for creating a task list. You can add tasks to a list, mark off your completed tasks, clear the task list, or clear the completed tasks. A task counter is also a feature of this task list. The task list theme is of a Pokemon character Snorlax.
 
-### Goal: Build a Simple Todo List
+**Link to project:** https://optimistic-benz-e4a984.netlify.app
 
-### How to submit your code for review:
+<img src="img/live_screenshot.png">
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript
+
+To make this To-Do list you need to start off with creating 3 buttons with event listeners. You will need 3 functions: 1. To clear the list 2. To clear the completed tasks 3. Transfer each input into your list. Bonus points for adding a task counter and using JS to dynamically cross off completed list items by clicking them.
+
+## Optimizations
+
+
+## Lessons Learned:
+
+Some great takeaways from this project are adding rules to each function to account for an update of the task counter when things are added, removed, or crossed off.
+
+## Examples:
+
+
