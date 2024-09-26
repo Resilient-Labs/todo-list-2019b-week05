@@ -1,0 +1,75 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+  width: 50%;
+  background: pink;
+  margin:0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 365px;
+}
+h1{
+  font-size: 50px;
+  text-decoration: underline;
+  color: white;
+
+}
+input{
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  font-size: 25px;
+  vertical-align: middle;
+}
+#addToDo{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  vertical-align: middle;
+  font-size: 20px;
+  background-color: lightgreen;
+}
+.clearList{
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  background-color: lightgreen;
+}
+.to-dos{
+  margin-top: 25px;
+}
+.paragraph-styling{
+  margin: 0;
+  cursor: pointer;
+  font-size: 30px;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
