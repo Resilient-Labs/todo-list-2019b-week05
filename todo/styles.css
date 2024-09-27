@@ -1,0 +1,61 @@
+/* universal */
+* {
+    box-sizing: border-box;
+}
+
+/* container */
+
+.container { 
+    background-color: rgba(120, 117, 99, 0.731);
+    width: 30vw;
+    padding: 20px;
+}
+
+
+/* completed task */
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+/* background */
+
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+li {
+    width: 100%;
+    background-color: rgb(226, 243, 243);
+    list-style: none;
+    margin: 0;
+    font-size: 1.3rem;
+    padding: 5px;
+    
+
+}
+
+
+/* font colors */
+
+h1{
+    color: rgb(75, 68, 60);
+}
+
+/* buttons */
+
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+/* clear completed */
+.clearCompleted {
+    display: none;
+}
