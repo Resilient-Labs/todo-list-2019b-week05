@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a TO DO List web app">
+	<meta name="keywords" content="to-do list, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>TO DO LIST</title>
+
+	<!-- external CSS link -->
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>TO DO LIST</h1>
+	</header>
+	<main>
+		<form action="">
+			<input type="text" id="listInput">
+			<button onclick="return false" id="addToList">Add to List</button>
+		</form>
+		<ol>
+		</ol>
+		<p>You have <span id="counter">0</span> items left.</p>
+		<section>
+			<button onclick="return false" id="clearList">Clear List</button>
+			<button onclick="return false" id="clearCompleted">Clear Completed</button>
+		</section>
+	</main>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
