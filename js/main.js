@@ -12,7 +12,8 @@ When There are no To Do items on the list, or if every item is crossed off, the 
 
 When the patient clicks the button labeled clear, the ul list should be cleared of any to do items.  */
 
-const inputField = document.getElementById('addtoDo');
+
+const inputField = document.getElementById('addToDo');
 const addButton = document.getElementById('addToList');
 const displayList = document.getElementById('displayToDos');
 const remainingToDosMessage = document.getElementById('toDosRemaining');
@@ -20,51 +21,51 @@ const clearButton = document.getElementById('clear');
 
 let toDo = [];
 
-function updateremainingToDos(){
+function updateRemainingToDos() {
     const remainingToDoCount = toDo.filter((item, index) => {
-        const listItem = todoList.children[index];
+        const listItem = displayList.children[index]; 
         return !listItem.classList.contains('completed');
     }).length;
+    
     if (remainingToDoCount === 0) {
         remainingToDosMessage.textContent = "Yay! You have nothing to do!";
     } else {
         remainingToDosMessage.textContent = `You have ${remainingToDoCount} remaining to do!`;
     }
-} 
-    
+}
 
-function addtoDo(){
-    const toDoText= inputField.value.trim()
-    if (toDoText===""){
-    return;
+function addToDo() {
+    const toDoText = inputField.value.trim();
+    if (toDoText === "") {
+        return;
     }
     toDo.push(toDoText);
-    inputField.value="";
+    inputField.value = "";
     displayToDos();
-    updateremainingToDos();
+    updateRemainingToDos();
 }
 
-function displayToDos(){
-    displayList.innerHTML="";
+function displayToDos() {
+    displayList.innerHTML = "";
     toDo.forEach((item) => {
-    const li = document.createElement('li');
-    li.textContent = item;
-    li.addEventListener('click', () => {
-      li.classList.toggle('completed'); 
+        const li = document.createElement('li');
+        li.textContent = item;
+        li.addEventListener('click', () => {
+            li.classList.toggle('completed'); 
+            updateRemainingToDos();
+        });
+        displayList.appendChild(li);
     });
-    displayList.appendChild(li);
-});
 }
 
-function clearList(){
+function clearList() {
     toDo = [];
-    displayList.innerHTML="";
-    updateremainingToDos();
+    displayList.innerHTML = "";
+    updateRemainingToDos();
 }
 
-addButton.addEventListener('click',addtoDo)
-clearButton.addEventListener('click',clearList)
+addButton.addEventListener('click', addToDo);
+clearButton.addEventListener('click', clearList);
 
-updateremainingToDos();
-
+updateRemainingToDos();
 
