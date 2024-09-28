@@ -1,0 +1,53 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  background-color: wheat;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+section {
+  float: left;
+  width: 100%;
+}
+#myHeader,
+#myInputs {
+  text-align: center;
+}
+#myHeader {
+  margin-bottom: 2%;
+}
+/* #middleSection {
+  border: 1px solid grey;
+} */
+ul {
+  padding: 0;
+  margin: 0 30%;
+}
+li {
+  list-style: none;
+  width: 100%;
+}
+li:nth-child(odd) {
+  background-color: white;
+
+}
+a {
+  text-decoration: none;
+}
+
+.completed {
+  color: grey;
+  text-decoration: line-through;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
