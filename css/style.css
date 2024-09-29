@@ -1,0 +1,43 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  text-align: center;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#todoList {
+  /* padding: 50px; */
+  height: 100px;
+}
+
+.todo-item {
+  cursor: pointer;
+  width: 50%;
+  margin: auto;
+  /* text-align: left; */
+}
+
+.completed {
+  text-decoration: line-through;
+  color: red;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
