@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="To do list cumo style">
+    	<meta name="keywords" content="to do list input, clear all, mark completed if possible">
+
+		<title>To dos</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+       <section class="bigcontainer">
+        <section class="todos">
+            <h1>To dos:</h1>
+        
+         <section class="typeHere">
+             <input type="text" id="userTypeHere" placeholder="Enter to-do">
+               <button onclick="addToDo()" id="plus" type="submit">+</button>
+         </section>
+       
+         <ul id="listcontainer">
+            <!-- <li class="checkedoff">One</li>
+            <li>Two</li>
+            <li>Three</li> -->
+         </ul> 
+         <button onclick="clearAll()" class="plus">Clear All</button>
+        </section>
+        
+       </section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
