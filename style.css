@@ -11,6 +11,128 @@
 /* LAYOUT
 /*******************************************/
 
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+/* Container */
+.todo-container {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+/* Input Area */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1.1em;
+  outline: none;
+}
+
+.input-group button {
+  width: 25%;
+  padding: 10px;
+  font-size: 1.1em;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #5753d9;
+}
+
+/* Task List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+ul li {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+ul li:hover {
+  transform: translateX(10px);
+}
+
+/* Completed task */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Buttons for tasks */
+.action-btns {
+  display: flex;
+  gap: 10px;
+}
+
+.complete-btn,
+.delete-btn {
+  border: none;
+  padding: 7px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.complete-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.complete-btn:hover {
+  background-color: #45a047;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
