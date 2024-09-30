@@ -1,0 +1,37 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+body {
+  background: rgb(182, 255, 204);
+}
+
+.wrapper{
+  width: 30rem;
+  padding: 1rem 2rem 3rem 2rem;
+  margin: 15% auto;
+  background: rgba(255, 255, 255, 0.3)
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
