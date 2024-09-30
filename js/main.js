@@ -29,12 +29,6 @@ function addTodo(e) {
     const clickedItem = e.target;
     clickedItem.classList.toggle("completed");
   });
-
-  // Create completed button
-  //   const completeBtn = document.createElement("button");
-  //   completeBtn.innerHTML = "Complete";
-  //   completeBtn.classList.add("complete-btn");
-  //   todoList.appendChild(completeBtn);
 }
 
 function clearCompletedTodos() {
