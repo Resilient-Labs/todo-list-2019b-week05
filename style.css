@@ -79,9 +79,12 @@ input{
 }
 
 /* Media query for Phone*/
-@media (min-width: 480px) {
+@media (max-width: 480px) {
     body {
       font-size: 18px;
+    }
+    .mid{
+        width:80%
     }
   }
   
