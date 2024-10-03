@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     box-sizing: border-box;
     display: flex;
@@ -5,8 +8,6 @@ body{
     flex-direction: column;
     background: rgb(24, 149, 226);
 }
-
-
 
 button{
   height:27px;
@@ -28,8 +29,8 @@ ul{
 
 .mid{
     border:5px dotted black;
-    width:30%;
-    height:500px;
+    width:40%;
+    height:550px;
     margin:20px 0 20px 0;
     background:white
 }
@@ -45,10 +46,18 @@ li{
     color:black;
     display: flex;
     text-align: left;
-    justify-content: space-between;
-    width:100%;
+    align-items: flex-start;
     height:27px;
     margin-bottom: 5px;
+    margin-top:1px;
+    width:90%;
+}
+
+#list{
+    width:200%;
+    margin: 5px 0 2px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 span{
@@ -60,6 +69,39 @@ span{
 }
 
 input{
-    height:20px;
+    height:25px;
+    width:5%
+}
+
+.addtask{
+    height:27px;
     width:60%;
+}
+
+/* Media query for Phone*/
+@media (min-width: 480px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Tablets and small desktops */
+  @media (min-width: 768px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  /* Large tablets and desktops */
+  @media (min-width: 992px) {
+    body {
+      font-size: 22px;
+    }
+  }
+  
+  /* Extra large screens */
+  @media (min-width: 1200px) {
+    body {
+      font-size: 24px;
+    }
 }
