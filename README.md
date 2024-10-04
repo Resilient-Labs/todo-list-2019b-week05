@@ -1,22 +1,16 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+## To Do List
+This project is a simple to do list where you can cross your items off as you do them, and remove them all once complete. You can remove one at a time or all at once.
 
-### Goal: Build a Simple Todo List
+**Link to project:** https://whatsnexxt.netlify.app/
 
-### How to submit your code for review:
+![alt tag](https://i.imgur.com/7k3XgQj.pnggitp)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, Javascript
+
+This was a combination of HTML and Javascript. Less focus on styling and more focus on functionality.
+
+## Lessons Learned:
+
+This project was tricky as there were a lot if this happens, then do this. I defintely feel better after

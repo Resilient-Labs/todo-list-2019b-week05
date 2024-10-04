@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("toDoList/img/paper.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h2{
+outline:2px solid black;
+width:100%;
+text-align:center;
+height:150px;
+} 
+.myDiv{
+  outline:2px solid black;
+  
+}
+.entirelist{
+  align-content:center;
+}
+.li{
+  width:70%;
+  list-style:none;
+}
+.completed{
+  color:gray;
+  text-decoration:line-through;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
