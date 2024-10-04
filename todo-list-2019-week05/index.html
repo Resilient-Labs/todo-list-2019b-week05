@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rosy's To-Do List</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <section class="top">
+        <input type="text" placeholder="Add task" id="addTask" class="addtask">
+        <button type="button" onclick="addTask()">Add to List</button>
+    </section>
+    <section class="mid" >
+        <ul id="list"></ul>
+    </section>
+    <section class="bottom">
+        <button type="button" onclick="clearList()">Clear List</button>
+        <button type="button" onclick="clearCompleted()">Clear Completed</button>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
