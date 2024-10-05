@@ -10,7 +10,7 @@ Every time an item is added to the to Do list, I want a message to be displayed 
 
 When There are no To Do items on the list, or if every item is crossed off, the list should say "Yay! You Have Nothing To Do!"
 
-When the patient clicks the button labeled clear, the ul list should be cleared of any to do items.  */
+When the client clicks the button labeled clear, the ul list should be cleared of any to do items.  */
 
 
 const inputField = document.getElementById('addToDo');
