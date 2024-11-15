@@ -3,7 +3,7 @@ This project is a simple to do list where you can cross your items off as you do
 
 **Link to project:** https://whatsnexxt.netlify.app/
 
-![alt tag](https://i.imgur.com/7k3XgQj.pnggitp)
+![alt tag](https://i.imgur.com/GpAZyKy.png)
 
 ## How It's Made:
 
