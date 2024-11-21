@@ -1,8 +1,8 @@
 # Simple to Do List Site
 
-![Thumbnail](toDoList/css/assets/thumbnail.png)
+![Thumbnail](css/assets/thumbnail.png)
 
-Link to project: (https://simpletodolisttracker.netlify.app/)
+Link to project: (https://listwhattodo.netlify.app/)
 
 
 ## How It's Made:
