@@ -1,22 +1,9 @@
-# ✅ Week05 Bootcamp2019 Project: Todo List
+# ✅ Project: Todo List
 
-### Goal: Build a Simple Todo List
+### Goal: Simple Todo List
 
-### How to submit your code for review:
+### About
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+This simple To-do list lets the user add items to the list, and mark them as checked once completed. The user can clear completed items off the lists with the click of a button, or choose to clear the entire list
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+![Screenshot 2024-11-13 at 11 09 17 AM](https://github.com/user-attachments/assets/40d58c99-ead8-4873-8240-f2b0e3934903)
