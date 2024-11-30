@@ -2,21 +2,13 @@
 
 ### Goal: Build a Simple Todo List
 
-### How to submit your code for review:
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Link to project:** https://tosolistsimple.netlify.app/
+
+<img width="600" alt="Screen Shot 2022-10-21 at 12 56 32 AM" src="https://user-images.githubusercontent.com/113194307/197115479-1b5886f1-138f-4c39-bd7e-7ca10c4bce8f.png">
+
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, JavaScript
