@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(rgb(69, 200, 69), rgb(50, 147, 202), rgb(232, 168, 50));
+}
+.toDo{
+    height: 300px;
+    padding: 10px;
+    margin:50px 200px;
+    background: white;
+}
+h1{
+    text-align:center;
+}
+.inputList{
+    text-align: center;
+    margin-top: 20px;
+}
+.add{
+    height: 34px;
+    width: 7%;
+    background: lightskyblue;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+.add:hover{
+    background: lightskyblue;
+}
+#listItems{
+    height: 40px;
+    width: 25%;
+    text-align: center;
+    border-radius: 40px;
+
+}
+ul{
+    list-style: none;
+    padding: 12px 8px 12px 50px;
+}
+.clear{
+    font-weight: bold;
+    margin-left: 480px;
+}
+.lineThrough{
+    text-decoration: line-through;
+}
